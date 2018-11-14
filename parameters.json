@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "table5jdwebapp"
+        },
+        "linuxFxVersion": {
+            "value": "PHP|7.0"
+        },
+        "hostingPlanName": {
+            "value": "table2rjappplan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West Central US"
+        },
+        "serverFarmResourceGroup": {
+            "value": "table2rjwebapprg"
+        },
+        "subscriptionId": {
+            "value": "0ab9ad2e-f316-4da5-b243-e7f65da24755"
+        }
+    }
+}
